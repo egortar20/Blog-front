@@ -2,6 +2,6 @@ version: '2.1'
 
 services: 
     blog_front:
-        build: ./docker/dev/
+        build: .
         ports: 
-         - 4200:4200
+         - 80:80
